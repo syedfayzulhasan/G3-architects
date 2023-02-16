@@ -297,3 +297,153 @@ nav > ul {
 }
 
 /* Main end */
+
+/* footer strat  */
+
+.all-rights {
+  width: 550px;
+  background-color: #fff4e7;
+  color: #424242;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 450px;
+  margin-bottom: 50px;
+}
+
+/* responsive design */
+@media screen and (max-width: 576px) {
+  .header {
+    width: 174%;
+  }
+  .banner-img {
+    width: 100%;
+    height: 85vh;
+  }
+
+  nav > ul {
+    flex-direction: column;
+    gap: 5px;
+    height: 80px;
+    font-size: 15px;
+  }
+
+  nav > .nav-title {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .banner-title {
+    width: 300px;
+    font-size: 37px;
+  }
+
+  .banner-details {
+    font-weight: 400px;
+  }
+
+  .banner-img {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .banner-btn {
+    font-size: 15px;
+  }
+
+  .features-container {
+    flex-direction: column;
+  }
+
+  .feature-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .feature-title {
+    width: 300px;
+    margin-left: 10px;
+  }
+
+  .feature-details {
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .feature-version {
+    flex-direction: column;
+    margin-left: 5px;
+  }
+
+  .feature-version-title {
+    margin-top: 20px;
+    width: 400px;
+    font-size: 37px;
+    margin-left: 50px;
+  }
+
+  .feature-version-sub-title {
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .feature-version-image {
+    margin: 5px;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .fact-title {
+    width: 100px;
+    font-size: 30px;
+  }
+
+  .fact-title {
+    width: 258px;
+    height: 50px;
+  }
+
+  .fact-details {
+    width: 400px;
+    margin-right: 20px;
+  }
+
+  .facts-section {
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+
+  .fact-section-documents {
+    flex-direction: column;
+  }
+
+  .sponspor-title {
+    font-size: 30px;
+  }
+
+  .sponspor-details {
+    width: 400px;
+    margin-left: 15px;
+    font-size: 15px;
+  }
+
+  .sponspor-img {
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    display: grid;
+    margin-left: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  .contact-title {
+    width: 400px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+  }
+
+  .all-rights {
+    margin-right: 200px;
+  }
+}
